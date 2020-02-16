@@ -8,17 +8,17 @@ from email.message import EmailMessage
 
 # path of the image
 path = r'C:\Users\Dell\Desktop\PYCertGen\template.jpg'
-# font
+# Denotes the font type
 font = cv2.FONT_HERSHEY_SIMPLEX
 # Reading an image in default mode
 image = cv2.imread(path)
 # org
 org = (300, 50)
-# fontScale
+# Font scale factor that is multiplied by the font-specific base size
 fontScale = 1
-# Blue color in BGR
+# Color of text string to be drawn in BGR
 color = (0, 0, 0)
-# Line thickness of 2 px
+# Thickness of the line in px
 thickness = 2
 
 #List of names of the images generated
